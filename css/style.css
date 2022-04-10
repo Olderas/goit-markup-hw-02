@@ -1,0 +1,12 @@
+/* Основной цвет текста  color: #212121; --title-text-color:#212121; */
+/* Основной цвет фона background: #FFFFFF; --primari-white-color:#FFFFFF;*/
+/* Цвет футера background: #2F303A; */
+
+:root {
+--title-text-color: #212121;
+--primari-white-color:#FFFFFF;
+
+}
+
+
+
