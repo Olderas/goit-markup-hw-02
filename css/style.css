@@ -2,24 +2,83 @@
 /* цвет фона background: #FFFFFF;        --primari-white-color:#FFFFFF;*/
 /* Цвет футера background: #2F303A;        --footer-color: #2F303A;*/
 /* цвет кнопки background: #2196F3;        --hover-button-color: #2196F3;*/
-
+/* цвет текста футер и шапка color: #757575; --primari-text-color: #757575; */
 
 :root {
 --title-text-color: #212121;
 --primari-white-color:#FFFFFF;
+--primari-text-color: #757575;
 --hover-button-color: #2196F3;
 --footer-color: #2F303A;
---
 }
 
-
+ul {
+    list-style: none;
+}
 
 .page {
 color: var(--primari-white-color);
 color: var(--title-text-color)
-
 }
 
+/* Header */
+.header .link-nav {
+    color: var(--title-text-color);
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.site-nav .portfolio {
+color: var(--hover-button-color);
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.site-nav .link-nav {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.logo {
+    color: var(--hover-button-color);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2px;
+    letter-spacing: 0.03em;
+}
+.site-email {
+    color: var(--primari-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2px;
+    letter-spacing: 0.02em;
+}
+
+.site-tel {
+    color: var(--primari-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
 ul {
     list-style: none;
 }
@@ -29,11 +88,26 @@ ul {
 
 /* футер */
 .footer {
-    color: var(--footer-color);
-    background-color: var(--footer-color);
-    
+background-color: var(--footer-color);
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+}
+
+.info-email, .info-tel {
+    color: var(--primari-text-color);
+}
+
+.adress {
+    color: var(--primari-white-color);
 }
 
 .logo {
     color: var(--hover-button-color);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
 }
