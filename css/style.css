@@ -1,12 +1,39 @@
 /* Основной цвет текста  color: #212121; --title-text-color:#212121; */
-/* Основной цвет фона background: #FFFFFF; --primari-white-color:#FFFFFF;*/
-/* Цвет футера background: #2F303A; */
+/* цвет фона background: #FFFFFF;        --primari-white-color:#FFFFFF;*/
+/* Цвет футера background: #2F303A;        --footer-color: #2F303A;*/
+/* цвет кнопки background: #2196F3;        --hover-button-color: #2196F3;*/
+
 
 :root {
 --title-text-color: #212121;
 --primari-white-color:#FFFFFF;
-
+--hover-button-color: #2196F3;
+--footer-color: #2F303A;
+--
 }
 
 
 
+.page {
+color: var(--primari-white-color);
+color: var(--title-text-color)
+
+}
+
+ul {
+    list-style: none;
+}
+
+/* site-nav */
+
+
+/* футер */
+.footer {
+    color: var(--footer-color);
+    background-color: var(--footer-color);
+    
+}
+
+.logo {
+    color: var(--hover-button-color);
+}
